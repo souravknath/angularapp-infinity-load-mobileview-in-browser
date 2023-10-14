@@ -1,0 +1,5 @@
+<div class="scroll-container" appInfiniteScroll (scrollEnd)="loadMoreItems()">
+  <ul>
+    <li *ngFor="let item of items">{{ item.name }}</li>
+  </ul>
+</div>
